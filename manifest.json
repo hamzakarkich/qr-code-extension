@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "QR Code Generator",
+  "version": "1.0",
+  "description": "Generate QR codes easily from any text or URL",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "permissions": ["storage"],
+  "author": "Your Name"
+}
